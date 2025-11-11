@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Idioms Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <div class="card">
+      <header>
+        <div class="h-left">
+          <div class="logo">IQ</div>
+          <div>
+            <div class="title">Idioms & Vocabulary — Competitive Practice</div>
+            <div class="meta"><span id="qpos">Question 1</span> • <span id="qtotal">/ 1</span></div>
+          </div>
+        </div>
+        <div class="timer-wrap">
+          <div class="timer-label">Time</div>
+          <div class="timer" aria-live="polite" aria-label="time left">
+            <span id="tleft">20</span>
+          </div>
+        </div>
+      </header>
+
+      <div class="body">
+        <div class="progress" aria-hidden="true"><div id="pbar"></div></div>
+        <div id="screen"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
